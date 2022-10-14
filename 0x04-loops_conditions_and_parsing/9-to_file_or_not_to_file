@@ -3,16 +3,16 @@
 
 File="school"
 
-if [ -e "$FILE" ]
+if [ -e "$FILE" ];
 then
 echo "school file exits"
-if [ ! -s "$FILE" ]
+if [ ! -s "$FILE" ];
 then
 echo "school file is empty"
 else
 echo "school file is not empty"
 fi
-if [ -f "$FILE" ]
+if [ -f "$FILE" ];
 then
 echo "school is a regular file"
 fi
