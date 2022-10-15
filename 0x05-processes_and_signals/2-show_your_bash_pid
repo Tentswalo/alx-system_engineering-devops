@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script extends previous command and displays line
+
+./1-list_your_processes | grep "bash"
